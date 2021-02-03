@@ -11,8 +11,8 @@ Created on Fri Dec 18 13:46:48 2020
 import random
 import pandas as pd
 #import numpy as np
-import code.children as ch
-import code.utilityFunc as uf
+import Code.children as ch
+import Code.utilityFunc as uf
 
 # 1.pick initial population
 

@@ -11,18 +11,18 @@ Created on Wed Jan 13 19:55:32 2021
 import random
 import pandas as pd
 import numpy as np
-import code.children as ch
-import code.utilityFunc as uf
+import Code.children as ch
+import Code.utilityFunc as uf
 
 # # adjusted closed stock data
-# adjClose = pd.read_csv('../data/adjClose.csv', index_col = 0)
+# adjClose = pd.read_csv('./data/adjClose.csv', index_col = 0)
 # # calculate the return rate
 # returns = (adjClose - adjClose.shift(1))/adjClose.shift(1)
 # returns = returns.iloc[1:] # drop the na row made by the shift
 
 # # use t-bill for risk-free rate
 # # https://www.federalreserve.gov/data.htm
-# tbill = pd.read_csv('../data/t_bill.csv', index_col = 0)
+# tbill = pd.read_csv('./data/t_bill.csv', index_col = 0)
 # tbill.columns = ['rate']
 # rfr = tbill['rate'].mean()/100
     

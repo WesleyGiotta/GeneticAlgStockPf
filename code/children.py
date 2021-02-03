@@ -7,7 +7,7 @@ Created on Thu Dec 31 17:55:07 2020
 """
 import pandas as pd
 import random
-import code.utilityFunc as uf
+import Code.utilityFunc as uf
 
 # 3.a.child crossover
 

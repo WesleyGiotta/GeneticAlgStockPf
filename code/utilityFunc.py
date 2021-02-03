@@ -54,8 +54,8 @@ def pickPfWt(df, pop = 240, randSeed = 0):
 
 # check for accuracy
 def sharpe_calc(returns, list_wt, rfr):
-    """Calculate sharpe ratio returns is a DataFrame,
-        list_wt is a list, rfr is a float."""
+    """ calculate sharpe ratio
+        returns is a DataFrame, list_wt is a list, rfr is a float."""
     mean_returns = returns.mean()
     pf_return = round(np.sum(mean_returns * list_wt) * 252,2)
     pf_std_dev = round(np.sqrt(np.dot(list_wt,np.dot(returns.cov(), list_wt))) * np.sqrt(252),2)

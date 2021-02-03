@@ -8,7 +8,7 @@ Created on Mon Jan 25 16:23:42 2021
 
 import os, time
 import pandas as pd
-import code.stockPrices as sp
+import Code.stockPrices as sp
 
 def last_modified_fileinfo(filepath):
 	# https://www.w3resource.com/python-exercises/date-time-exercise/python-date-time-exercise-38.php
